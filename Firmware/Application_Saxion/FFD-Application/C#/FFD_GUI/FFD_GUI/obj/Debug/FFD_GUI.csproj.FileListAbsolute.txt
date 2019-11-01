@@ -1,0 +1,138 @@
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.exe.config
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.exe
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.pdb
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csprojAssemblyReference.cache
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Properties.Resources.resources
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.GenerateResource.cache
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.exe
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.pdb
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.About.resources
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Main.resources
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Connection.resources
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Options.resources
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.exe.config
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.exe
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.pdb
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csprojAssemblyReference.cache
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.About.resources
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Connection.resources
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Options.resources
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Main.resources
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Properties.Resources.resources
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.GenerateResource.cache
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.CoreCompileInputs.cache
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.exe
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.pdb
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\ZedGraph.dll
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\ZedGraph.xml
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\de\ZedGraph.resources.dll
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\es\ZedGraph.resources.dll
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\fr\ZedGraph.resources.dll
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\hu\ZedGraph.resources.dll
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\it\ZedGraph.resources.dll
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\ja\ZedGraph.resources.dll
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\pt\ZedGraph.resources.dll
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\ru\ZedGraph.resources.dll
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\sk\ZedGraph.resources.dll
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\sv\ZedGraph.resources.dll
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\tr\ZedGraph.resources.dll
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\zh-cn\ZedGraph.resources.dll
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\zh-tw\ZedGraph.resources.dll
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.CopyComplete
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.exe.config
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.exe
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.pdb
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\ZedGraph.dll
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\ZedGraph.xml
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\de\ZedGraph.resources.dll
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\es\ZedGraph.resources.dll
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\fr\ZedGraph.resources.dll
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\hu\ZedGraph.resources.dll
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\it\ZedGraph.resources.dll
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\ja\ZedGraph.resources.dll
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\pt\ZedGraph.resources.dll
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\ru\ZedGraph.resources.dll
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\sk\ZedGraph.resources.dll
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\sv\ZedGraph.resources.dll
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\tr\ZedGraph.resources.dll
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\zh-cn\ZedGraph.resources.dll
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\zh-tw\ZedGraph.resources.dll
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csprojAssemblyReference.cache
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.About.resources
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Connection.resources
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Options.resources
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Main.resources
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Properties.Resources.resources
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.GenerateResource.cache
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.CoreCompileInputs.cache
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.CopyComplete
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.exe
+E:\Work\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.pdb
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.exe.config
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.exe
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.pdb
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\ZedGraph.dll
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\ZedGraph.xml
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\de\ZedGraph.resources.dll
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\es\ZedGraph.resources.dll
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\fr\ZedGraph.resources.dll
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\hu\ZedGraph.resources.dll
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\it\ZedGraph.resources.dll
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\ja\ZedGraph.resources.dll
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\pt\ZedGraph.resources.dll
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\ru\ZedGraph.resources.dll
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\sk\ZedGraph.resources.dll
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\sv\ZedGraph.resources.dll
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\tr\ZedGraph.resources.dll
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\zh-cn\ZedGraph.resources.dll
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\zh-tw\ZedGraph.resources.dll
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csprojAssemblyReference.cache
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.About.resources
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Connection.resources
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Options.resources
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Main.resources
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Properties.Resources.resources
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.GenerateResource.cache
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.CoreCompileInputs.cache
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.CopyComplete
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.exe
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.pdb
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.exe.manifest
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.application
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.exe.manifest
+E:\Work\Saxion_Lab_WindowsApp\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.application
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.exe.config
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.exe.manifest
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.application
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.exe
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.pdb
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\MaterialSkin.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\MetroFramework.Design.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\MetroFramework.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\MetroFramework.Fonts.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\ZedGraph.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\ZedGraph.xml
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\de\ZedGraph.resources.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\es\ZedGraph.resources.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\fr\ZedGraph.resources.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\hu\ZedGraph.resources.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\it\ZedGraph.resources.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\ja\ZedGraph.resources.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\pt\ZedGraph.resources.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\ru\ZedGraph.resources.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\sk\ZedGraph.resources.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\sv\ZedGraph.resources.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\tr\ZedGraph.resources.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\zh-cn\ZedGraph.resources.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\bin\Debug\zh-tw\ZedGraph.resources.dll
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csprojAssemblyReference.cache
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Main.resources
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Properties.Resources.resources
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.GenerateResource.cache
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.CoreCompileInputs.cache
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.exe.manifest
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.application
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.CopyComplete
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.exe
+E:\Saxion_Study\SSS\Firmware\Application_Saxion\FFD-Application\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.pdb

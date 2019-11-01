@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFD_GUI", "FFD_GUI.csproj", "{953C4E05-0B3E-43D5-BFAB-D54BBBF5D89D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "REV'IT! LAB", "..\REV'IT! LAB\REV'IT! LAB.vdproj", "{296154EE-7332-4FD2-95D3-98F1EF4B7DB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{953C4E05-0B3E-43D5-BFAB-D54BBBF5D89D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953C4E05-0B3E-43D5-BFAB-D54BBBF5D89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953C4E05-0B3E-43D5-BFAB-D54BBBF5D89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953C4E05-0B3E-43D5-BFAB-D54BBBF5D89D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{296154EE-7332-4FD2-95D3-98F1EF4B7DB3}.Debug|Any CPU.ActiveCfg = Debug
+		{296154EE-7332-4FD2-95D3-98F1EF4B7DB3}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AB3883E-49DF-4247-92DF-60045F245E93}
+	EndGlobalSection
+EndGlobal
