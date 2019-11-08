@@ -49,8 +49,22 @@
             this.metroToolTip = new MetroFramework.Components.MetroToolTip();
             this.MetroTab = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
+            this.lblsensor19 = new System.Windows.Forms.Label();
+            this.lblsensor18 = new System.Windows.Forms.Label();
+            this.lblsensor17 = new System.Windows.Forms.Label();
+            this.lblsensor16 = new System.Windows.Forms.Label();
+            this.lblsensor13 = new System.Windows.Forms.Label();
+            this.metroLabel11 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.lblsensor1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.lblsensor14 = new System.Windows.Forms.Label();
             this.lblsensor15 = new System.Windows.Forms.Label();
             this.lblsensor12 = new System.Windows.Forms.Label();
             this.lblsensor11 = new System.Windows.Forms.Label();
@@ -98,20 +112,6 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.alert_messege = new System.Windows.Forms.NotifyIcon(this.components);
             this.timer15 = new System.Windows.Forms.Timer(this.components);
-            this.lblsensor1 = new System.Windows.Forms.Label();
-            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel11 = new MetroFramework.Controls.MetroLabel();
-            this.lblsensor14 = new System.Windows.Forms.Label();
-            this.lblsensor13 = new System.Windows.Forms.Label();
-            this.lblsensor16 = new System.Windows.Forms.Label();
-            this.lblsensor17 = new System.Windows.Forms.Label();
-            this.lblsensor18 = new System.Windows.Forms.Label();
-            this.lblsensor19 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager1)).BeginInit();
             this.MetroTab.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
@@ -269,6 +269,155 @@
             this.metroTabPage1.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage1.VerticalScrollbarSize = 10;
             // 
+            // lblsensor19
+            // 
+            this.lblsensor19.AutoSize = true;
+            this.lblsensor19.BackColor = System.Drawing.Color.Transparent;
+            this.lblsensor19.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblsensor19.Location = new System.Drawing.Point(1779, 571);
+            this.lblsensor19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblsensor19.Name = "lblsensor19";
+            this.lblsensor19.Size = new System.Drawing.Size(53, 36);
+            this.lblsensor19.TabIndex = 174;
+            this.lblsensor19.Text = "C6";
+            // 
+            // lblsensor18
+            // 
+            this.lblsensor18.AutoSize = true;
+            this.lblsensor18.BackColor = System.Drawing.Color.Transparent;
+            this.lblsensor18.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblsensor18.Location = new System.Drawing.Point(1779, 479);
+            this.lblsensor18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblsensor18.Name = "lblsensor18";
+            this.lblsensor18.Size = new System.Drawing.Size(53, 36);
+            this.lblsensor18.TabIndex = 173;
+            this.lblsensor18.Text = "C5";
+            // 
+            // lblsensor17
+            // 
+            this.lblsensor17.AutoSize = true;
+            this.lblsensor17.BackColor = System.Drawing.Color.Transparent;
+            this.lblsensor17.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblsensor17.Location = new System.Drawing.Point(1779, 394);
+            this.lblsensor17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblsensor17.Name = "lblsensor17";
+            this.lblsensor17.Size = new System.Drawing.Size(53, 36);
+            this.lblsensor17.TabIndex = 172;
+            this.lblsensor17.Text = "C4";
+            // 
+            // lblsensor16
+            // 
+            this.lblsensor16.AutoSize = true;
+            this.lblsensor16.BackColor = System.Drawing.Color.Transparent;
+            this.lblsensor16.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblsensor16.Location = new System.Drawing.Point(1779, 308);
+            this.lblsensor16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblsensor16.Name = "lblsensor16";
+            this.lblsensor16.Size = new System.Drawing.Size(53, 36);
+            this.lblsensor16.TabIndex = 171;
+            this.lblsensor16.Text = "C3";
+            // 
+            // lblsensor13
+            // 
+            this.lblsensor13.AutoSize = true;
+            this.lblsensor13.BackColor = System.Drawing.Color.Transparent;
+            this.lblsensor13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblsensor13.Location = new System.Drawing.Point(1774, 54);
+            this.lblsensor13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblsensor13.Name = "lblsensor13";
+            this.lblsensor13.Size = new System.Drawing.Size(58, 36);
+            this.lblsensor13.TabIndex = 170;
+            this.lblsensor13.Text = "CO";
+            // 
+            // metroLabel11
+            // 
+            this.metroLabel11.AutoSize = true;
+            this.metroLabel11.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel11.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel11.Location = new System.Drawing.Point(1746, 533);
+            this.metroLabel11.Name = "metroLabel11";
+            this.metroLabel11.Size = new System.Drawing.Size(120, 25);
+            this.metroLabel11.TabIndex = 169;
+            this.metroLabel11.Text = "TEMP CUP 6:";
+            // 
+            // metroLabel10
+            // 
+            this.metroLabel10.AutoSize = true;
+            this.metroLabel10.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel10.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel10.Location = new System.Drawing.Point(1746, 441);
+            this.metroLabel10.Name = "metroLabel10";
+            this.metroLabel10.Size = new System.Drawing.Size(120, 25);
+            this.metroLabel10.TabIndex = 168;
+            this.metroLabel10.Text = "TEMP CUP 5:";
+            // 
+            // metroLabel9
+            // 
+            this.metroLabel9.AutoSize = true;
+            this.metroLabel9.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel9.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel9.Location = new System.Drawing.Point(1746, 353);
+            this.metroLabel9.Name = "metroLabel9";
+            this.metroLabel9.Size = new System.Drawing.Size(120, 25);
+            this.metroLabel9.TabIndex = 167;
+            this.metroLabel9.Text = "TEMP CUP 4:";
+            // 
+            // metroLabel8
+            // 
+            this.metroLabel8.AutoSize = true;
+            this.metroLabel8.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel8.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel8.Location = new System.Drawing.Point(1745, 270);
+            this.metroLabel8.Name = "metroLabel8";
+            this.metroLabel8.Size = new System.Drawing.Size(120, 25);
+            this.metroLabel8.TabIndex = 166;
+            this.metroLabel8.Text = "TEMP CUP 3:";
+            // 
+            // metroLabel4
+            // 
+            this.metroLabel4.AutoSize = true;
+            this.metroLabel4.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel4.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel4.Location = new System.Drawing.Point(1746, 188);
+            this.metroLabel4.Name = "metroLabel4";
+            this.metroLabel4.Size = new System.Drawing.Size(120, 25);
+            this.metroLabel4.TabIndex = 165;
+            this.metroLabel4.Text = "TEMP CUP 2:";
+            // 
+            // metroLabel3
+            // 
+            this.metroLabel3.AutoSize = true;
+            this.metroLabel3.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel3.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel3.Location = new System.Drawing.Point(1746, 100);
+            this.metroLabel3.Name = "metroLabel3";
+            this.metroLabel3.Size = new System.Drawing.Size(120, 25);
+            this.metroLabel3.TabIndex = 164;
+            this.metroLabel3.Text = "TEMP CUP 1:";
+            // 
+            // metroLabel2
+            // 
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel2.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel2.Location = new System.Drawing.Point(1746, 14);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(119, 25);
+            this.metroLabel2.TabIndex = 163;
+            this.metroLabel2.Text = "TEMP OVEN:";
+            // 
+            // lblsensor1
+            // 
+            this.lblsensor1.AutoSize = true;
+            this.lblsensor1.BackColor = System.Drawing.Color.White;
+            this.lblsensor1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblsensor1.Location = new System.Drawing.Point(323, 14);
+            this.lblsensor1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblsensor1.Name = "lblsensor1";
+            this.lblsensor1.Size = new System.Drawing.Size(100, 36);
+            this.lblsensor1.TabIndex = 162;
+            this.lblsensor1.Text = "HUM1";
+            // 
             // pictureBox3
             // 
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
@@ -297,6 +446,18 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 157;
             this.pictureBox5.TabStop = false;
+            // 
+            // lblsensor14
+            // 
+            this.lblsensor14.AutoSize = true;
+            this.lblsensor14.BackColor = System.Drawing.Color.Transparent;
+            this.lblsensor14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblsensor14.Location = new System.Drawing.Point(1779, 134);
+            this.lblsensor14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblsensor14.Name = "lblsensor14";
+            this.lblsensor14.Size = new System.Drawing.Size(53, 36);
+            this.lblsensor14.TabIndex = 156;
+            this.lblsensor14.Text = "C1";
             // 
             // lblsensor15
             // 
@@ -428,6 +589,7 @@
             this.lblsensor3.Size = new System.Drawing.Size(99, 36);
             this.lblsensor3.TabIndex = 143;
             this.lblsensor3.Text = "KILO4";
+            this.lblsensor3.Click += new System.EventHandler(this.Lblsensor3_Click);
             // 
             // lblsensor2
             // 
@@ -892,167 +1054,6 @@
             // 
             this.timer15.Interval = 10;
             this.timer15.Tick += new System.EventHandler(this.Timer15_Tick);
-            // 
-            // lblsensor1
-            // 
-            this.lblsensor1.AutoSize = true;
-            this.lblsensor1.BackColor = System.Drawing.Color.White;
-            this.lblsensor1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblsensor1.Location = new System.Drawing.Point(323, 14);
-            this.lblsensor1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblsensor1.Name = "lblsensor1";
-            this.lblsensor1.Size = new System.Drawing.Size(100, 36);
-            this.lblsensor1.TabIndex = 162;
-            this.lblsensor1.Text = "HUM1";
-            // 
-            // metroLabel2
-            // 
-            this.metroLabel2.AutoSize = true;
-            this.metroLabel2.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel2.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel2.Location = new System.Drawing.Point(1746, 14);
-            this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(119, 25);
-            this.metroLabel2.TabIndex = 163;
-            this.metroLabel2.Text = "TEMP OVEN:";
-            // 
-            // metroLabel3
-            // 
-            this.metroLabel3.AutoSize = true;
-            this.metroLabel3.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel3.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel3.Location = new System.Drawing.Point(1746, 100);
-            this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(120, 25);
-            this.metroLabel3.TabIndex = 164;
-            this.metroLabel3.Text = "TEMP CUP 1:";
-            // 
-            // metroLabel4
-            // 
-            this.metroLabel4.AutoSize = true;
-            this.metroLabel4.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel4.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel4.Location = new System.Drawing.Point(1746, 188);
-            this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(120, 25);
-            this.metroLabel4.TabIndex = 165;
-            this.metroLabel4.Text = "TEMP CUP 2:";
-            // 
-            // metroLabel8
-            // 
-            this.metroLabel8.AutoSize = true;
-            this.metroLabel8.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel8.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel8.Location = new System.Drawing.Point(1745, 270);
-            this.metroLabel8.Name = "metroLabel8";
-            this.metroLabel8.Size = new System.Drawing.Size(120, 25);
-            this.metroLabel8.TabIndex = 166;
-            this.metroLabel8.Text = "TEMP CUP 3:";
-            // 
-            // metroLabel9
-            // 
-            this.metroLabel9.AutoSize = true;
-            this.metroLabel9.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel9.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel9.Location = new System.Drawing.Point(1746, 353);
-            this.metroLabel9.Name = "metroLabel9";
-            this.metroLabel9.Size = new System.Drawing.Size(120, 25);
-            this.metroLabel9.TabIndex = 167;
-            this.metroLabel9.Text = "TEMP CUP 4:";
-            // 
-            // metroLabel10
-            // 
-            this.metroLabel10.AutoSize = true;
-            this.metroLabel10.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel10.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel10.Location = new System.Drawing.Point(1746, 441);
-            this.metroLabel10.Name = "metroLabel10";
-            this.metroLabel10.Size = new System.Drawing.Size(120, 25);
-            this.metroLabel10.TabIndex = 168;
-            this.metroLabel10.Text = "TEMP CUP 5:";
-            // 
-            // metroLabel11
-            // 
-            this.metroLabel11.AutoSize = true;
-            this.metroLabel11.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel11.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel11.Location = new System.Drawing.Point(1746, 533);
-            this.metroLabel11.Name = "metroLabel11";
-            this.metroLabel11.Size = new System.Drawing.Size(120, 25);
-            this.metroLabel11.TabIndex = 169;
-            this.metroLabel11.Text = "TEMP CUP 6:";
-            // 
-            // lblsensor14
-            // 
-            this.lblsensor14.AutoSize = true;
-            this.lblsensor14.BackColor = System.Drawing.Color.Transparent;
-            this.lblsensor14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblsensor14.Location = new System.Drawing.Point(1779, 134);
-            this.lblsensor14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblsensor14.Name = "lblsensor14";
-            this.lblsensor14.Size = new System.Drawing.Size(53, 36);
-            this.lblsensor14.TabIndex = 156;
-            this.lblsensor14.Text = "C1";
-            // 
-            // lblsensor13
-            // 
-            this.lblsensor13.AutoSize = true;
-            this.lblsensor13.BackColor = System.Drawing.Color.Transparent;
-            this.lblsensor13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblsensor13.Location = new System.Drawing.Point(1774, 54);
-            this.lblsensor13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblsensor13.Name = "lblsensor13";
-            this.lblsensor13.Size = new System.Drawing.Size(58, 36);
-            this.lblsensor13.TabIndex = 170;
-            this.lblsensor13.Text = "CO";
-            // 
-            // lblsensor16
-            // 
-            this.lblsensor16.AutoSize = true;
-            this.lblsensor16.BackColor = System.Drawing.Color.Transparent;
-            this.lblsensor16.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblsensor16.Location = new System.Drawing.Point(1779, 308);
-            this.lblsensor16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblsensor16.Name = "lblsensor16";
-            this.lblsensor16.Size = new System.Drawing.Size(53, 36);
-            this.lblsensor16.TabIndex = 171;
-            this.lblsensor16.Text = "C3";
-            // 
-            // lblsensor17
-            // 
-            this.lblsensor17.AutoSize = true;
-            this.lblsensor17.BackColor = System.Drawing.Color.Transparent;
-            this.lblsensor17.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblsensor17.Location = new System.Drawing.Point(1779, 394);
-            this.lblsensor17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblsensor17.Name = "lblsensor17";
-            this.lblsensor17.Size = new System.Drawing.Size(53, 36);
-            this.lblsensor17.TabIndex = 172;
-            this.lblsensor17.Text = "C4";
-            // 
-            // lblsensor18
-            // 
-            this.lblsensor18.AutoSize = true;
-            this.lblsensor18.BackColor = System.Drawing.Color.Transparent;
-            this.lblsensor18.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblsensor18.Location = new System.Drawing.Point(1779, 479);
-            this.lblsensor18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblsensor18.Name = "lblsensor18";
-            this.lblsensor18.Size = new System.Drawing.Size(53, 36);
-            this.lblsensor18.TabIndex = 173;
-            this.lblsensor18.Text = "C5";
-            // 
-            // lblsensor19
-            // 
-            this.lblsensor19.AutoSize = true;
-            this.lblsensor19.BackColor = System.Drawing.Color.Transparent;
-            this.lblsensor19.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblsensor19.Location = new System.Drawing.Point(1779, 571);
-            this.lblsensor19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblsensor19.Name = "lblsensor19";
-            this.lblsensor19.Size = new System.Drawing.Size(53, 36);
-            this.lblsensor19.TabIndex = 174;
-            this.lblsensor19.Text = "C6";
             // 
             // Main
             // 

@@ -418,7 +418,7 @@ namespace FFD_GUI
             try
             {
                 //split data receive from serialport
-                arrList = serialPort1.ReadLine().Split(';');
+                arrList = serialPort1.ReadLine().Split(',');
 
             }
             catch
@@ -440,12 +440,11 @@ namespace FFD_GUI
         {
             try
             {
-
                 using (System.IO.StreamWriter file =
 
                 new System.IO.StreamWriter(@datalogger_checkbox.Text, true))
                 {
-                    //file.WriteLine(arrList[0] + "," + arrList[1] + "," + arrList[2] + "," + arrList[3] + "," + arrList[4] + "," + arrList[5] + "," + arrList[6] + "," + arrList[7] + "," + arrList[8] + "," + arrList[9] + "," + arrList[10] + "," + arrList[11] + "," + arrList[12] + "," + arrList[13] + "," + arrList[14] + "," + arrList[15] + "," + arrList[16] + "," + arrList[17] + "," + arrList[18]);
+                    file.Write(arrList[0] + "," + arrList[1] + "," + arrList[2] + "," + arrList[3] + "," + arrList[4] + "," + arrList[5] + "," + arrList[6] + "," + arrList[7] + "," + arrList[8] + "," + arrList[9] + "," + arrList[10] + "," + arrList[11] + "," + arrList[12] + "," + arrList[13] + "," + arrList[14] + "," + arrList[15] + "," + arrList[16] + "," + arrList[17] + "," + arrList[18]);
 
                 }
             }
@@ -512,7 +511,7 @@ namespace FFD_GUI
             lblsensor2.ForeColor = Color.Green;
             lblsensor2.Text = String.Format("{0:0.00}", Convert.ToDouble(arrList[1]));
             lblsensor3.ForeColor = Color.Green;
-            lblsensor3.Text = String.Format("{0:0.00}", Convert.ToDouble(arrList[2]));
+            lblsensor3.Text = String.Format("{0:0.00}", Convert.ToDouble(arrList[7]));
             lblsensor4.ForeColor = Color.Green;
             lblsensor4.Text = String.Format("{0:0.00}", Convert.ToDouble(arrList[3]));
             lblsensor5.ForeColor = Color.Green;
@@ -522,7 +521,7 @@ namespace FFD_GUI
             lblsensor7.ForeColor = Color.Green;
             lblsensor7.Text = String.Format("{0:0.00}", Convert.ToDouble(arrList[6]));
             lblsensor8.ForeColor = Color.Green;
-            lblsensor8.Text = String.Format("{0:0.00}", Convert.ToDouble(arrList[7]));
+            lblsensor8.Text = String.Format("{0:0.00}", Convert.ToDouble(arrList[2]));
             lblsensor9.ForeColor = Color.Green;
             lblsensor9.Text = String.Format("{0:0.00}", Convert.ToDouble(arrList[8]));
             lblsensor10.ForeColor = Color.Green;
@@ -1091,6 +1090,8 @@ namespace FFD_GUI
                 if (openFileDialog1.ShowDialog() == DialogResult.OK)
                 {
                     datalogger_checkbox.Text = openFileDialog1.FileName;
+                    string text = "H1,W1,H2,W2,H3,W3,H4,W4,H5,W5,H6,W6,TO,T1,T2,T3,T4,T5,T6";
+                    System.IO.File.WriteAllText(@datalogger_checkbox.Text, text);
 
                 }
                 else
@@ -1102,6 +1103,11 @@ namespace FFD_GUI
             {
                 datalogger_checkbox.Text = "Enable Data logger";
             }
+        }
+
+        private void Lblsensor3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

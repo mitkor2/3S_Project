@@ -54,7 +54,7 @@ if (sht.readSample()) {
     String TO =  String(sht.getTemperature());
     String T1 =  String(sht.getTemperature()); String T2 =  String(sht.getTemperature()); String T3 =  String(sht.getTemperature());
     String T4 =  String(sht.getTemperature()); String T5 =  String(sht.getTemperature());String T6 =  String(sht.getTemperature());
-    Serial.println(H1+";"+W1+";"+H2+";"+W2+";"+H3+";"+W3+";"+H4+";"+W4+";"+H5+";"+W5+";"+H6+";"+W6+";"+TO+";"+T1+";"+T2+";"+T3+";"+T4+";"+T5+";"+T6);
+    Serial.println(H1+","+W1+","+H2+","+W2+","+H3+","+W3+","+H4+","+W4+","+H5+","+W5+","+H6+","+W6+","+TO+","+T1+","+T2+","+T3+","+T4+","+T5+","+T6);
   }
   else {
       Serial.print("Error in readSample()\n");
