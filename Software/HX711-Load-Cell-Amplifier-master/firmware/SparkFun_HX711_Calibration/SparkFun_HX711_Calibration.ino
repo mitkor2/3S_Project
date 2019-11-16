@@ -1,23 +1,16 @@
-/*
- Arduino pin 2 -> HX711 CLK
- 3 -> DOUT
- 5V -> VCC
- GND -> GND 
-*/
 #include <Wire.h>
+#include "HX711.h" 
 #include "SHTSensor.h"
 SHTSensor sht;
-
-#include "HX711.h" //This library can be obtained here http://librarymanager/All#Avia_HX711
-
-int LOADCELL_DOUT_PIN = 3;
-int LOADCELL_SCK_PIN  = 2;
-
+#define LOADCELL_DOUT_PIN_1 3  
+#define LOADCELL_SCK_PIN_1 2   
+#define LOADCELL_DOUT_PIN_2 5  
+#define LOADCELL_SCK_PIN_2 4    
 HX711 scale1,scale2,scale3,scale4,scale5,scale6;
 int reading_loadcell(int number);
 int setup_loadcell(int dout,int sck, int number);
 float calibration_factor = -7050; //-7050 worked for my 440lb max scale setup
-float reading_cell1 = 0;
+long reading_cell1,reading_cell2,reading_cell3,reading_cell4,reading_cell5,reading_cell6 = 0;
 
 void setup() {
   Serial.begin(9600);
@@ -28,8 +21,31 @@ void setup() {
       Serial.print("init(): failed\n");
   }
   sht.setAccuracy(SHTSensor::SHT_ACCURACY_MEDIUM); // only supported by SHT3x
-//  Serial.print("data");
-  setup_loadcell(LOADCELL_DOUT_PIN,LOADCELL_SCK_PIN,1);
+    scale1.begin(LOADCELL_DOUT_PIN_1, LOADCELL_SCK_PIN_1);
+    scale1.set_scale();
+    scale1.tare();
+    long zero_factor1 = scale1.read_average();
+    scale2.begin(LOADCELL_DOUT_PIN_2, LOADCELL_SCK_PIN_2);
+    scale2.set_scale();
+    scale2.tare();
+    long zero_factor2 = scale2.read_average(); 
+//    scale3.begin(LOADCELL_DOUT_PIN_3, LOADCELL_SCK_PIN_3);
+//    scale3.set_scale();
+//    scale3.tare();
+//    long zero_factor3 = scale3.read_average();
+//    scale4.begin(LOADCELL_DOUT_PIN_4, LOADCELL_SCK_PIN_4);
+//    scale4.set_scale();
+//    scale4.tare();
+//    long zero_factor4 = scale4.read_average(); 
+//    scale5.begin(LOADCELL_DOUT_PIN_5, LOADCELL_SCK_PIN_5);
+//    scale5.set_scale();
+//    scale5.tare();
+//    long zero_factor5 = scale5.read_average();
+//    scale6.begin(LOADCELL_DOUT_PIN_6, LOADCELL_SCK_PIN_6);
+//    scale6.set_scale();
+//    scale6.tare();
+//    long zero_factor6 = scale6.read_average(); 
+
 }
 
 void loop() {
@@ -45,10 +61,16 @@ void loop() {
 //      Serial.print("Error in readSample()\n");
 //  }
 //  delay(200);
+//-------------------------------------------------------------------
 if (sht.readSample()) {
     reading_cell1 = reading_loadcell(1);
+    reading_cell2 = reading_loadcell(2);
+//    reading_cell3 = reading_loadcell(3);
+//    reading_cell4 = reading_loadcell(4);
+//    reading_cell5 = reading_loadcell(5);
+//    reading_cell6 = reading_loadcell(6);
     String H1 =  String(sht.getHumidity()); String W1 =  String(reading_cell1);String H2 =  String(sht.getHumidity());
-    String W2 =  String(reading_cell1);String H3 =  String(sht.getHumidity());String W3 =  String(reading_cell1);
+    String W2 =  String(reading_cell2);String H3 =  String(sht.getHumidity());String W3 =  String(reading_cell1);
     String H4 =  String(sht.getHumidity());String W4 =  String(reading_cell1);String H5 =  String(sht.getHumidity());
     String W5 =  String(reading_cell1);String H6 =  String(sht.getHumidity());String W6 =  String(reading_cell1);
     String TO =  String(sht.getTemperature());
@@ -59,51 +81,8 @@ if (sht.readSample()) {
   else {
       Serial.print("Error in readSample()\n");
   }
-  delay(200);
 }
 
-int setup_loadcell(int dout,int sck,int number)
-{
-  switch (number)
-  {
-  case 1:
-    scale1.begin(dout, sck);
-    scale1.set_scale();
-    scale1.tare(); //Reset the scale to 0
-    long zero_factor1 = scale1.read_average(); //Get a baseline reading} 
-    break;
-  case 2:
-    scale2.begin(dout, sck);
-    scale2.set_scale();
-    scale2.tare(); //Reset the scale to 0
-    long zero_factor2 = scale2.read_average(); //Get a baseline reading} 
-    break;
-  case 3:
-    scale3.begin(dout, sck);
-    scale3.set_scale();
-    scale3.tare(); //Reset the scale to 0
-    long zero_factor3 = scale3.read_average(); //Get a baseline reading} 
-    break;
-  case 4:
-    scale4.begin(dout, sck);
-    scale4.set_scale();
-    scale4.tare(); //Reset the scale to 0
-    long zero_factor4 = scale4.read_average(); //Get a baseline reading} 
-    break;
-  case 5:
-    scale5.begin(dout, sck);
-    scale5.set_scale();
-    scale5.tare(); //Reset the scale to 0
-    long zero_factor5 = scale5.read_average(); //Get a baseline reading} 
-    break;
-  case 6:
-    scale6.begin(dout, sck);
-    scale6.set_scale();
-    scale6.tare(); //Reset the scale to 0
-    long zero_factor6 = scale6.read_average(); //Get a baseline reading} 
-    break;  
-  } 
-}
 int reading_loadcell(int number)
 {
   float value1,value2,value3,value4,value5,value6 = 0;
