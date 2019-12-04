@@ -81,6 +81,7 @@ if (sht.readSample()) {
   else {
       Serial.print("Error in readSample()\n");
   }
+  delay(30000);
 }
 
 int reading_loadcell(int number)

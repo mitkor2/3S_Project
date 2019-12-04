@@ -4,8 +4,8 @@
 SHTSensor sht;
 #define LOADCELL_DOUT_PIN_1 3  
 #define LOADCELL_SCK_PIN_1 2   
-#define LOADCELL_DOUT_PIN_2 5  
-#define LOADCELL_SCK_PIN_2 4    
+//#define LOADCELL_DOUT_PIN_2 5  
+//#define LOADCELL_SCK_PIN_2 4    
 HX711 scale1,scale2,scale3,scale4,scale5,scale6;
 int reading_loadcell(int number);
 int setup_loadcell(int dout,int sck, int number);
@@ -64,13 +64,13 @@ void loop() {
 //-------------------------------------------------------------------
 if (sht.readSample()) {
     reading_cell1 = reading_loadcell(1);
-    reading_cell2 = reading_loadcell(2);
+//    reading_cell2 = reading_loadcell(2);
 //    reading_cell3 = reading_loadcell(3);
 //    reading_cell4 = reading_loadcell(4);
 //    reading_cell5 = reading_loadcell(5);
 //    reading_cell6 = reading_loadcell(6);
     String H1 =  String(sht.getHumidity()); String W1 =  String(reading_cell1);String H2 =  String(sht.getHumidity());
-    String W2 =  String(reading_cell2);String H3 =  String(sht.getHumidity());String W3 =  String(reading_cell1);
+    String W2 =  String(reading_cell1);String H3 =  String(sht.getHumidity());String W3 =  String(reading_cell1);
     String H4 =  String(sht.getHumidity());String W4 =  String(reading_cell1);String H5 =  String(sht.getHumidity());
     String W5 =  String(reading_cell1);String H6 =  String(sht.getHumidity());String W6 =  String(reading_cell1);
     String TO =  String(sht.getTemperature());
@@ -81,6 +81,7 @@ if (sht.readSample()) {
   else {
       Serial.print("Error in readSample()\n");
   }
+  delay(300)
 }
 
 int reading_loadcell(int number)

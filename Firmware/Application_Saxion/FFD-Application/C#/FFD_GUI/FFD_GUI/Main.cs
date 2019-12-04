@@ -58,7 +58,7 @@ namespace FFD_GUI
         public Main()
         {
             InitializeComponent();
-            openFileDialog1.Filter = "Text|*.csv";
+            openFileDialog1.Filter = "Text|*.txt";
             cbBaud.Items.Add(9600);
             cbBaud.Items.Add(14400);
             cbBaud.Items.Add(19200);
@@ -92,6 +92,8 @@ namespace FFD_GUI
             lblsensor17.ForeColor = Color.Green;
             lblsensor18.ForeColor = Color.Green;
             lblsensor19.ForeColor = Color.Green;
+            timer16.Tick += new EventHandler(DoUpdate); // Everytime timer ticks, timer_Tick will be called
+            timer16.Enabled = true;
             timer15.Tick += new EventHandler(DoUpdate); // Everytime timer ticks, timer_Tick will be called
             timer15.Enabled = true;
             timer2.Tick += new EventHandler(DoUpdate); // Everytime timer ticks, timer_Tick will be called
@@ -444,8 +446,14 @@ namespace FFD_GUI
 
                 new System.IO.StreamWriter(@datalogger_checkbox.Text, true))
                 {
-                    file.Write(arrList[0] + "," + arrList[1] + "," + arrList[2] + "," + arrList[3] + "," + arrList[4] + "," + arrList[5] + "," + arrList[6] + "," + arrList[7] + "," + arrList[8] + "," + arrList[9] + "," + arrList[10] + "," + arrList[11] + "," + arrList[12] + "," + arrList[13] + "," + arrList[14] + "," + arrList[15] + "," + arrList[16] + "," + arrList[17] + "," + arrList[18]);
-
+                    string year = DateTime.Now.Year.ToString("0000");
+                    string month = DateTime.Now.Month.ToString("00");
+                    string date = DateTime.Now.Day.ToString("00");
+                    string hour = DateTime.Now.Hour.ToString("00");
+                    string minute = DateTime.Now.Minute.ToString("00");
+                    string second = DateTime.Now.Second.ToString("00");
+                    string CurrentDate = date + "/"+month + "/"+year+" || "+hour+":" +minute  + ":" + second;
+                    file.Write(CurrentDate + ","+arrList[0] + "," + arrList[1] + "," + arrList[2] + "," + arrList[3] + "," + arrList[4] + "," + arrList[5] + "," + arrList[6] + "," + arrList[7] + "," + arrList[8] + "," + arrList[9] + "," + arrList[10] + "," + arrList[11] + "," + arrList[12] + "," + arrList[13] + "," + arrList[14] + "," + arrList[15] + "," + arrList[16] + "," + arrList[17] + "," + arrList[18]+"\n");
                 }
             }
             catch
@@ -453,21 +461,15 @@ namespace FFD_GUI
                 return;
             }
         }
+
         int intlen = 0;
         private void Timer15_Tick(object sender, EventArgs e)
         {
             logger_saveinfo();
-            //auto detect COM port//
-            string[] ports = SerialPort.GetPortNames();
-            if (intlen != ports.Length)
-            {
-                intlen = ports.Length;
-                cbPorts.Items.Clear();
-                for (int j = 0; j < intlen; j++)
-                {
-                    cbPorts.Items.Add(ports[j]);
-                }
-            }
+        }
+        private void Timer16_Tick(object sender, EventArgs e)
+        {
+
         }
         private void Chart1_Click(object sender, EventArgs e)
         {
@@ -1090,9 +1092,8 @@ namespace FFD_GUI
                 if (openFileDialog1.ShowDialog() == DialogResult.OK)
                 {
                     datalogger_checkbox.Text = openFileDialog1.FileName;
-                    string text = "H1,W1,H2,W2,H3,W3,H4,W4,H5,W5,H6,W6,TO,T1,T2,T3,T4,T5,T6";
+                    string text = "Time,H1,W1,H2,W2,H3,W3,H4,W4,H5,W5,H6,W6,TO,T1,T2,T3,T4,T5,T6";
                     System.IO.File.WriteAllText(@datalogger_checkbox.Text, text);
-
                 }
                 else
                 {
@@ -1108,6 +1109,20 @@ namespace FFD_GUI
         private void Lblsensor3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Timer16_Tick_1(object sender, EventArgs e)
+        {
+            string[] ports = SerialPort.GetPortNames();
+            if (intlen != ports.Length)
+            {
+                intlen = ports.Length;
+                cbPorts.Items.Clear();
+                for (int j = 0; j < intlen; j++)
+                {
+                    cbPorts.Items.Add(ports[j]);
+                }
+            }
         }
     }
 }

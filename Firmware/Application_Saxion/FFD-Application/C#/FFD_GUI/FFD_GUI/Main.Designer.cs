@@ -112,6 +112,7 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.alert_messege = new System.Windows.Forms.NotifyIcon(this.components);
             this.timer15 = new System.Windows.Forms.Timer(this.components);
+            this.timer16 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager1)).BeginInit();
             this.MetroTab.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
@@ -1052,8 +1053,13 @@
             // 
             // timer15
             // 
-            this.timer15.Interval = 10;
+            this.timer15.Interval = 600000;
             this.timer15.Tick += new System.EventHandler(this.Timer15_Tick);
+            // 
+            // timer16
+            // 
+            this.timer16.Interval = 10;
+            this.timer16.Tick += new System.EventHandler(this.Timer16_Tick_1);
             // 
             // Main
             // 
@@ -1168,5 +1174,6 @@
         private System.Windows.Forms.Label lblsensor17;
         private System.Windows.Forms.Label lblsensor16;
         private System.Windows.Forms.Label lblsensor13;
+        private System.Windows.Forms.Timer timer16;
     }
 }
