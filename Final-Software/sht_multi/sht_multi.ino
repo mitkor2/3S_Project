@@ -31,53 +31,43 @@ float  hum_s[7];
 long zero_factor[6];
 void setup()
 {
-  Serial.begin(115200);
+  Serial.begin(9600);
   Wire.begin();
   setupscales(0,LOADCELL_DOUT_PIN_1, LOADCELL_SCK_PIN_1);
   setupscales(1,LOADCELL_DOUT_PIN_2, LOADCELL_SCK_PIN_2);
   setupscales(2,LOADCELL_DOUT_PIN_3, LOADCELL_SCK_PIN_3);
   setupscales(3,LOADCELL_DOUT_PIN_4, LOADCELL_SCK_PIN_4);
   setupscales(4,LOADCELL_DOUT_PIN_5, LOADCELL_SCK_PIN_5);
-  setupscales(5,LOADCELL_DOUT_PIN_6, LOADCELL_SCK_PIN_6);     
-  setupsht85(0);
-  setupsht85(1);
-  setupsht85(2);
-  setupsht85(3);
-  setupsht85(4);
-  setupsht85(5);
-  setupsht85(6);
-}
-
-void loop() {
+  setupscales(5,LOADCELL_DOUT_PIN_6, LOADCELL_SCK_PIN_6);
   for (int i = 0; i <= 6; i++)
   {
-    if (sht[i].readSample())
-      { 
-        tcaselect(i);
-        if(isnan(sht[i].getHumidity())){hum_s[i]=0;temp_s[i]=0;}
-        else{hum_s[i]=sht[i].getHumidity();temp_s[i]=sht[i].getTemperature();}
-      }
+    setupsht85(i);
+  } 
+}
+void loop() {
+  for (int j = 0; j <= 6; j++)
+  {
+    hum_s[j] = hum(j);
+    temp_s[j]= temp(j);
   }
-  reading_cell[0] = reading_loadcell(0);
-  reading_cell[1] = reading_loadcell(1);
-  reading_cell[2] = reading_loadcell(2);
-  reading_cell[3] = reading_loadcell(3);
-  reading_cell[4] = reading_loadcell(4);
-  reading_cell[5] = reading_loadcell(5);
-//  if(isnan(sht[0].getHumidity())){hum_s[0]=0;temp_s[0]=0;}
-//  else{hum_s[0]=sht[0].getHumidity();temp_s[0]=sht[0].getTemperature();}
-//  if(isnan(sht[1].getHumidity())){hum_s[1]=0;temp_s[1]=0;}
-//  else{hum_s[1]=sht[1].getHumidity();temp_s[1]=sht[1].getTemperature();}
-//  if(isnan(sht[2].getHumidity())){hum_s[2]=0;temp_s[2]=0;}
-//  else{hum_s[2]=sht[2].getHumidity();temp_s[2]=sht[2].getTemperature();}
-//  if(isnan(sht[3].getHumidity())){hum_s[3]=0;temp_s[3]=0;}
-//  else{hum_s[3]=sht[3].getHumidity();temp_s[3]=sht[3].getTemperature();}
-//  if(isnan(sht[4].getHumidity())){hum_s[4]=0;temp_s[4]=0;}
-//  else{hum_s[4]=sht[4].getHumidity();temp_s[4]=sht[4].getTemperature();}
-//  if(isnan(sht[5].getHumidity())){hum_s[5]=0;temp_s[5]=0;}
-//  else{hum_s[5]=sht[5].getHumidity();temp_s[5]=sht[5].getTemperature();}
-//  if(isnan(sht[6].getHumidity())){hum_s[6]=0;temp_s[6]=0;}
-//  else{hum_s[6]=sht[6].getHumidity();temp_s[6]=sht[6].getTemperature();}
+  for (int k = 0; k <= 5; k++)
+  {
+    reading_cell[k] = reading_loadcell(k);
+  }
+  if(isnan(sht[0].getHumidity())){hum_s[0]=0;temp_s[0]=0;}
+  else{hum_s[0]=sht[0].getHumidity();temp_s[0]=sht[0].getTemperature();}
+  if(isnan(sht[1].getHumidity())){hum_s[1]=0;temp_s[1]=0;}
+  else{hum_s[1]=sht[1].getHumidity();temp_s[1]=sht[1].getTemperature();}
+  if(isnan(sht[2].getHumidity())){hum_s[2]=0;temp_s[2]=0;}
+  else{hum_s[2]=sht[2].getHumidity();temp_s[2]=sht[2].getTemperature();}
+  if(isnan(sht[3].getHumidity())){hum_s[3]=0;temp_s[3]=0;}
+  else{hum_s[3]=sht[3].getHumidity();temp_s[3]=sht[3].getTemperature();}
+  if(isnan(sht[4].getHumidity())){hum_s[4]=0;temp_s[4]=0;}
+  else{hum_s[4]=sht[4].getHumidity();temp_s[4]=sht[4].getTemperature();}
+  if(isnan(sht[5].getHumidity())){hum_s[5]=0;temp_s[5]=0;}
+  else{hum_s[5]=sht[5].getHumidity();temp_s[5]=sht[5].getTemperature();}
+  if(isnan(sht[6].getHumidity())){hum_s[6]=0;temp_s[6]=0;}
+  else{hum_s[6]=sht[6].getHumidity();temp_s[6]=sht[6].getTemperature();}
   String H1 =  String(hum_s[0]); String W1 =  String(reading_cell[0]);String H2 =  String(hum_s[1]);
   String W2 =  String(reading_cell[1]);String H3 =  String(hum_s[2]);String W3 =  String(reading_cell[2]);
   String H4 =  String(hum_s[3]);String W4 =  String(reading_cell[3]);String H5 =  String(hum_s[4]);
@@ -88,7 +78,6 @@ void loop() {
   Serial.println(H1+","+W1+","+H2+","+W2+","+H3+","+W3+","+H4+","+W4+","+H5+","+W5+","+H6+","+W6+","+TO+","+T1+","+T2+","+T3+","+T4+","+T5+","+T6);
   delay(300);
 }
-
 void tcaselect(uint8_t i) 
 {
   if (i > 7) return;
@@ -116,10 +105,10 @@ void setupsht85(int index)
   tcaselect(index);
   sht[index].setAccuracy(SHTSensor::SHT_ACCURACY_MEDIUM);
   if (sht[index].init())
-  { Serial.println(F("Yes it is connected"));
+  { //Serial.println(F("Yes it is connected"));
   }
   else
-  { Serial.println(F("No it is not connected"));
+  { //Serial.println(F("No it is not connected"));
   }
 }
 int temp(int index)
