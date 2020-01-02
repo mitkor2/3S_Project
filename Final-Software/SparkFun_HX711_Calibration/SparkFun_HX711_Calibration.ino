@@ -7,11 +7,11 @@ SHTSensor sht;
 //#define LOADCELL_DOUT_PIN_2 5  
 //#define LOADCELL_SCK_PIN_2 4    
 HX711 scale1,scale2,scale3,scale4,scale5,scale6;
-int reading_loadcell(int number);
+float reading_loadcell(int number);
 int setup_loadcell(int dout,int sck, int number);
 float calibration_factor = -7050; //-7050 worked for my 440lb max scale setup
-long reading_cell1,reading_cell2,reading_cell3,reading_cell4,reading_cell5,reading_cell6 = 0;
-
+float reading_cell1,reading_cell2,reading_cell3,reading_cell4,reading_cell5,reading_cell6 = 0;
+//float value1 =  0;
 void setup() {
   Serial.begin(9600);
   Wire.begin();
@@ -25,10 +25,10 @@ void setup() {
     scale1.set_scale();
     scale1.tare();
     long zero_factor1 = scale1.read_average();
-    scale2.begin(LOADCELL_DOUT_PIN_2, LOADCELL_SCK_PIN_2);
-    scale2.set_scale();
-    scale2.tare();
-    long zero_factor2 = scale2.read_average(); 
+//    scale2.begin(LOADCELL_DOUT_PIN_2, LOADCELL_SCK_PIN_2);
+//    scale2.set_scale();
+//    scale2.tare();
+//    long zero_factor2 = scale2.read_average(); 
 //    scale3.begin(LOADCELL_DOUT_PIN_3, LOADCELL_SCK_PIN_3);
 //    scale3.set_scale();
 //    scale3.tare();
@@ -62,6 +62,7 @@ void loop() {
 //  }
 //  delay(200);
 //-------------------------------------------------------------------
+//Serial.println(reading_cell1);
 if (sht.readSample()) {
     reading_cell1 = reading_loadcell(1);
 //    reading_cell2 = reading_loadcell(2);
@@ -81,10 +82,10 @@ if (sht.readSample()) {
   else {
       Serial.print("Error in readSample()\n");
   }
-  delay(300)
+  delay(300);
 }
 
-int reading_loadcell(int number)
+float reading_loadcell(int number)
 {
   float value1,value2,value3,value4,value5,value6 = 0;
   switch (number)

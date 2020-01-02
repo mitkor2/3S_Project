@@ -19,13 +19,13 @@ extern "C" {
 HX711 scale[6];
 SHTSensor sht[7];
 void tcaselect(uint8_t i); 
-int reading_loadcell(int number);
+float reading_loadcell(int number);
 void setupsht85(int index);
-int temp(int index);
-int hum(int index);
+float temp(int index);
+float hum(int index);
 void setupscales(int index,int out, int sck);
 float calibration_factor = -7050; //-7050 worked for my 440lb max scale setup
-long reading_cell[6];
+float reading_cell[6];
 float  temp_s[7];
 float  hum_s[7];
 long zero_factor[6];
@@ -86,7 +86,7 @@ void tcaselect(uint8_t i)
   Wire.endTransmission();  
   }
 } 
-int reading_loadcell(int number)
+float reading_loadcell(int number)
 {
   float value = 0;
   scale[number].set_scale(calibration_factor);
@@ -111,9 +111,9 @@ void setupsht85(int index)
   { //Serial.println(F("No it is not connected"));
   }
 }
-int temp(int index)
+float temp(int index)
 {
-  long value_temp;
+  float value_temp;
   tcaselect(index);
   if (sht[index].readSample())
   {
@@ -121,9 +121,9 @@ int temp(int index)
   }
   return value_temp;
 }
-int hum(int index)
+float hum(int index)
 {
-  long value_hum;
+  float value_hum;
   tcaselect(index);
   if (sht[index].readSample())
   {
