@@ -63,7 +63,7 @@ void loop() {
 //  delay(200);
 //-------------------------------------------------------------------
 //Serial.println(reading_cell1);
-if (sht.readSample()) {
+
     reading_cell1 = reading_loadcell(1);
 //    reading_cell2 = reading_loadcell(2);
 //    reading_cell3 = reading_loadcell(3);
@@ -78,9 +78,10 @@ if (sht.readSample()) {
     String T1 =  String(sht.getTemperature()); String T2 =  String(sht.getTemperature()); String T3 =  String(sht.getTemperature());
     String T4 =  String(sht.getTemperature()); String T5 =  String(sht.getTemperature());String T6 =  String(sht.getTemperature());
     Serial.println(H1+","+W1+","+H2+","+W2+","+H3+","+W3+","+H4+","+W4+","+H5+","+W5+","+H6+","+W6+","+TO+","+T1+","+T2+","+T3+","+T4+","+T5+","+T6);
+ if (sht.readSample()) {
   }
   else {
-      Serial.print("Error in readSample()\n");
+//      Serial.print("Error in readSample()\n");
   }
   delay(300);
 }
